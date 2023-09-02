@@ -11,7 +11,8 @@ const routes: Routes = [
   },
   {
     path: 'loan-types',
-    component: LoanTypesComponent
+    component: LoanTypesComponent,
+    outlet : 'sidebar'
   },
   {
     path: 'loans/add-loans',
